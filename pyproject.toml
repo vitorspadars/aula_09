@@ -9,7 +9,9 @@ readme = "README.md"
 requires-python = ">=3.13,<4.0"
 dependencies = [
     "loguru (>=0.7.3,<0.8.0)",
-    "pandas (>=3.0.3,<4.0.0)"
+    "pandas (>=3.0.3,<4.0.0)",
+    "pyarrow (>=25.0.0,<26.0.0)",
+    "fastparquet (>=2026.5.0,<2027.0.0)"
 ]
 
 
