@@ -1,6 +1,22 @@
 from loguru import logger
+from sys import stderr
 
-logger.add("meu_log.log")
+logger.add(
+                sink=stderr,
+                format="{time} <r>{level}</r> <g>{message}</g> {file}",
+                level="INFO"
+            )
+
+# logger.add(
+#                 "meu_arquivo_de_logs.log",
+#                 format = "{time} {level} {message} {file}",
+#                 level="INFO"
+#             )
+
+logger.add(
+                "meu_log_critical.log",
+                format = "{time} {level} {message} {file}",
+                level='CRITICAL')
 
 def soma (x,y):
     try:
