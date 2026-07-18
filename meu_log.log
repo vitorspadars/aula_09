@@ -1,0 +1,3 @@
+2026-07-18 17:34:57.755 | INFO     | __main__:soma:8 - você digitou valores corretos 7
+2026-07-18 17:34:57.756 | INFO     | __main__:soma:8 - você digitou valores corretos 10
+2026-07-18 17:34:57.756 | CRITICAL | __main__:soma:11 - você tem que digitar valores corretos
